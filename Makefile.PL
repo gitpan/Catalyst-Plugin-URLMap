@@ -32,10 +32,12 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Catalyst::Plugin::URLMap",
   "PREREQ_PM" => {
+    "Catalyst::Utils" => 0,
     "Moose::Role" => 0,
+    "Text::SimpleTable" => 0,
     "namespace::autoclean" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }

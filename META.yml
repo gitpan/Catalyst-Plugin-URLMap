@@ -24,6 +24,8 @@ meta-spec:
   version: 1.4
 name: Catalyst-Plugin-URLMap
 requires:
+  Catalyst::Utils: 0
   Moose::Role: 0
+  Text::SimpleTable: 0
   namespace::autoclean: 0
-version: 0.001
+version: 0.002
